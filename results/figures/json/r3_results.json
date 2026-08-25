@@ -1,0 +1,11 @@
+{
+  "device": "cuda",
+  "grid_points": 1024,
+  "random_points": 5000,
+  "mode": 33,
+  "amplitude": 0.005,
+  "structured_rms": 52.06062109005861,
+  "random_rms": 53.091182096972695,
+  "continuous_grid_rms": 53.47129598411189,
+  "runtime_seconds": 2.814091581007233
+}
