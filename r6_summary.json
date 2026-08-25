@@ -1,0 +1,8 @@
+{
+  "hidden_mode_frequency": 33,
+  "hidden_amplitude": 0.005,
+  "structured_residual": 1.5706853026765872e-06,
+  "random_residual": 53.77964240643593,
+  "continuous_residual": 53.56086264768345,
+  "message": "Discrete residual minimization does not guarantee continuous observability."
+}
