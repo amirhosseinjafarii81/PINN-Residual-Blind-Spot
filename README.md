@@ -12,9 +12,9 @@ Can a small residual measured by conventional collocation points guarantee that 
 
 ## Main Findings
 
-The experiments demonstrate that discrete residual minimization can miss structured high-frequency error components.
+The experiments reveal that discrete collocation residual minimization may fail to detect structured high-frequency residual components.
 
-A hidden residual mode can remain almost invisible to point-wise collocation while being clearly detected by continuous or weak measurements.
+A hidden residual mode can remain nearly invisible to point-wise measurements while being detected by continuous and weak test-space evaluations.
 
 ## Experimental Pipeline
 
@@ -29,21 +29,37 @@ The study consists of:
 
 ## Key Results
 
-The experiments show:
+The experiments demonstrate:
 
-- Very small structured collocation residuals can coexist with large continuous residuals.
-- Weak test spaces provide significantly improved observability.
-- Adaptive weak measurements can detect hidden residual components missed by point sampling.
+- Large gaps between point-wise residual measurements and continuous residual evaluation.
+- Weak test spaces significantly improve residual observability.
+- Adaptive weak measurements provide a more informative residual assessment compared with fixed point sampling.
 
 ## Repository Structure
-src/
-Experimental Python implementations
 
-results/
-Figures and numerical outputs
+PINN-Residual-Blind-Spot/
 
-requirements.txt
-Python dependencies
+├── src/
+│   └── Experimental Python implementations
+
+├── results/
+│   ├── figures/
+│   └── numerical outputs
+
+├── README.md
+
+└── requirements.txt
+
+## Experimental Evidence
+
+The repository contains:
+
+- Blind-spot construction experiments.
+- Null-mode certification tests.
+- Optimization blindness analysis.
+- Weak test-space rescue benchmarks.
+
+All experiments are reproducible using the provided Python scripts.
 
 ## Reproducibility
 
